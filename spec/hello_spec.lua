@@ -1,0 +1,7 @@
+require("main")
+describe("anagrama",function(  )
+	it("imprimir um caracter", function()
+		local char = getChar("ana")
+		assert.same('a',char)
+	end)
+end)
