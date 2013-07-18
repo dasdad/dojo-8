@@ -1,7 +1,7 @@
 require("main")
 describe("anagrama",function(  )
-	it("imprimir um caracter", function()
-		local char = getChar("ana")
-		assert.same('a',char)
+	it("primeiro anagrama", function()
+		local primeiro = anagramas("ana")[1]
+		assert.same('ana',primeiro)
 	end)
 end)

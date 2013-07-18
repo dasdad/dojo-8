@@ -1,6 +1,6 @@
-function getChar(value)
-	a =  value:sub(1,1)
-	return a
+function anagramas(value)
+	--a =  value:sub(1,1)
+	return { value }
 end
 
 function main()
