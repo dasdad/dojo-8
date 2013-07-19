@@ -66,7 +66,7 @@ Retrospectiva
 Conteúdo
 --------
 
-* `spec`: testes[15].
+* `spec`: [testes][15].
 
 
 [1]: https://github.com/stupied4ever
@@ -81,6 +81,6 @@ Conteúdo
 [10]: https://github.com/rogeriopradoj
 [11]: https://github.com/rogeriopradoj
 [12]: https://github.com/rogeriopradoj
-[13]http://www.lua.org/
-[14]http://dojopuzzles.com/problemas/exibe/anagramas/
-[15]http://olivinelabs.com/busted/
+[13]: http://www.lua.org/
+[14]: http://dojopuzzles.com/problemas/exibe/anagramas/
+[15]: http://olivinelabs.com/busted/
