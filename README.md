@@ -15,22 +15,22 @@ Participantes
 * [Rogerio Prado de Jesus][4]
 * [Leonardo Antônio Gonçalves Baptista][5]
 * [Vitor Navarro][6]
-* [Leonardo M. Ribeiro][7]
-* [Felipe Almeida][8]
-* 
-* 
-* 
-* 
+* Leonardo M. Ribeiro
+* Felipe Almeida
+* Heslei Silva
+* Kleber Sato
+* Maurício Reis
+* [Danilo Bellini][7]
 
 Linguagem
 ---------
 
-[Lua][13]
+[Lua][8]
 
 Problema
 --------
 
-[Anagramas][14]
+[Anagramas][9]
 
 Retrospectiva
 -------------
@@ -66,7 +66,7 @@ Retrospectiva
 Conteúdo
 --------
 
-* `spec`: [testes][15].
+* `spec`: [testes][10].
 
 
 [1]: https://github.com/stupied4ever
@@ -75,12 +75,7 @@ Conteúdo
 [4]: https://github.com/rogeriopradoj
 [5]: https://github.com/leonardoobaptistaa
 [6]: https://github.com/vnavarro
-[7]: https://github.com/rogeriopradoj
-[8]: https://github.com/rogeriopradoj
-[9]: https://github.com/rogeriopradoj
-[10]: https://github.com/rogeriopradoj
-[11]: https://github.com/rogeriopradoj
-[12]: https://github.com/rogeriopradoj
-[13]: http://www.lua.org/
-[14]: http://dojopuzzles.com/problemas/exibe/anagramas/
-[15]: http://olivinelabs.com/busted/
+[7]: https://github.com/danilobellini
+[8]: http://www.lua.org/
+[9]: http://dojopuzzles.com/problemas/exibe/anagramas/
+[10]: http://olivinelabs.com/busted/
