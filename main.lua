@@ -7,9 +7,9 @@ function anagramas(value)
 		return {value, value:sub(2,2)..value:sub(1,1)}
 	end
 
-	if #value == 3 then
-		local fim = value:sub(3,3)
-		local resto = value:sub(1,2)
+	if #value >= 3 then
+		local fim = value:sub(#value,#value)
+		local resto = value:sub(1,#value-1)
 		local navarro = {}
 		local resultado = {}
 

@@ -34,4 +34,10 @@ describe("anagramas",function(  )
 		local lista_anagramas = anagramas("aab")
 		assert.same({'baa', 'aab', 'aba'}, lista_anagramas)
 	end)
+
+	
+	it("anagrama de aaab", function()
+		local lista_anagramas = anagramas("aaab")
+		assert.same({'abaa', 'baaa', 'aaba','aaab'}, lista_anagramas)
+	end)
 end)
