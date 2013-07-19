@@ -17,7 +17,7 @@ describe("anagramas",function(  )
 
 	it("anagrama de ca", function()
 		local lista_anagramas = anagramas("ca")
-		assert.same({'ca', 'ac'}, lista_anagramas)
+		assert.same({'ac', 'ca'}, lista_anagramas)
 	end)
 
 	it("anagrama de duas letras iguais", function()
@@ -35,9 +35,13 @@ describe("anagramas",function(  )
 		assert.same({'baa', 'aab', 'aba'}, lista_anagramas)
 	end)
 
-	
 	it("anagrama de aaab", function()
 		local lista_anagramas = anagramas("aaab")
 		assert.same({'abaa', 'baaa', 'aaba','aaab'}, lista_anagramas)
+	end)
+
+	it("anagrama de abc", function()
+		local lista_anagramas = anagramas("abc")
+		assert.same({'abc', 'bca', 'cab','acb', 'cba', 'bac'}, lista_anagramas)
 	end)
 end)
